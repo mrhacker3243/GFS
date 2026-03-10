@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --background: #022c22;
+  --foreground: #fbbf24;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Custom Swiper Bullets for Golden Theme */
+.swiper-pagination-bullet {
+  background: #fbbf24 !important;
+}
+.swiper-pagination-bullet-active {
+  background: #ffffff !important;
+}
